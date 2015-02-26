@@ -17,7 +17,7 @@
 		<java.encoding>UTF-8</java.encoding>
 		<jetty-version>6.1.22</jetty-version>
 		<gwt-version>2.5.0</gwt-version>
-		<local.highcharts>/Users/zhoufang/Documents/dev/zeus-opensource/web/libs/highcharts-1.4.0.jar</local.highcharts>
+		<local.highcharts>/web/libs/highcharts-1.4.0.jar</local.highcharts>
 	</properties>
 
 	<name>Zeus Web服务</name>
@@ -101,7 +101,7 @@
 			<artifactId>highcharts</artifactId>
 			<version>1.4-0</version>
 			<scope>system</scope>
-			<systemPath>${local.highcharts}</systemPath>
+			<systemPath>/web/libs/highcharts-1.4.0.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
